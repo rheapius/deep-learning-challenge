@@ -2,14 +2,14 @@
 Module 21
 
 
-##Overview:
+# Overview:
 
 The purpose of this analysis was to build a binary classifier model that would help select applicants with the best chance of having successful ventures. if funded by nonprofit foundation Alphabet Soup.
 
 
-##Results: 
+# Results: 
 
-*Data Preprocessing
+## Data Preprocessing
 
 What variable(s) are the target(s) for your model?
 'IS_SUCCESSFUL' column in the dataset was the target variable for the model.
@@ -20,7 +20,7 @@ All the other columns within the dataset have been used as features
 What variable(s) should be removed from the input data because they are neither targets nor features?
 Variables such as 'EIN' & 'Name' columns should be removed from input data.
 
-*Compiling, Training, and Evaluating the Model
+## Compiling, Training, and Evaluating the Model
 
 How many neurons, layers, and activation functions did you select for your neural network model, and why?
 
@@ -37,7 +37,7 @@ Dropped columns (ASK_AMT)
 Added more neurons in hidden layers (from 44 to 132)
 Reduced number of epochs (from 200 to 100)
 
-##Summary: 
+# Summary: 
 
 Overall, the deep learning model could produce 72.6% accuracy, slightly short of the target predictive accuracy of 75%. There are many ways we could make improvements to the model with better data preprocessing.
 
