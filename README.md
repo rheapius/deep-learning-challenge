@@ -11,31 +11,24 @@ The purpose of this analysis was to build a binary classifier model that would h
 
 ## Data Preprocessing
 
-What variable(s) are the target(s) for your model?
 'IS_SUCCESSFUL' column in the dataset was the target variable for the model.
-
-What variable(s) are the features for your model?
 All the other columns within the dataset have been used as features
-
-What variable(s) should be removed from the input data because they are neither targets nor features?
 Variables such as 'EIN' & 'Name' columns should be removed from input data.
 
 ## Compiling, Training, and Evaluating the Model
 
-How many neurons, layers, and activation functions did you select for your neural network model, and why?
+Neurons, layers, and activation functions selected for the neural network model:
 
-132 neurons- Three times of the number of features (44) for optimisation
-3 layers- Given the complexity of the data, the number of layers was increased
-Rectified Linear unit & Sigmoid-  ReLU is best to model positive, non-liner data. Whereas Sigmoid is ideal for binary classification of dataset and used in the outer layer.
-
-Were you able to achieve the target model performance?
+* 132 neurons- Three times of the number of features (44) for optimisation
+* 3 layers- Given the complexity of the data, the number of layers was increased
+* Rectified Linear unit & Sigmoid-  ReLU is best to model positive, non-liner data. Whereas Sigmoid is ideal for binary classification of dataset and used in the outer layer.
 
 Target model performance with accuracy of 75% was not achieved. The model showed accuracy of approximately 72%
 
-What steps did you take in your attempts to increase model performance?
-Dropped columns (ASK_AMT)
-Added more neurons in hidden layers (from 44 to 132)
-Reduced number of epochs (from 200 to 100)
+Steps taken to increase model performance:
+* Dropped columns (ASK_AMT)
+* Added more neurons in hidden layers (from 44 to 132)
+* Reduced number of epochs (from 200 to 100)
 
 # Summary: 
 
